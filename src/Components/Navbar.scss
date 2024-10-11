@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+
+    &__links{
+        display: inline-flex;
+        font-size: 24px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    &__logo{
+        width: 64px;
+        height: 64px;
+    }
+}
